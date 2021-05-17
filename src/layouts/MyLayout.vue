@@ -13,7 +13,7 @@
         </q-btn>
 
         <q-toolbar-title>
-          Quasar Speech
+          語音辦識
         </q-toolbar-title>
 
         <div class="q-mx-md">
@@ -112,8 +112,9 @@ export default {
     return {
       leftDrawerOpen: this.$q.platform.is.desktop,
       version_qspeech: process.env.VERSION_QSPEECH,
-      lang: this.$i18n.locale,
+      lang: this.$i18n.locale || 'zh-TW',
       langOptions: [
+        { value: 'zh-TW', label: '中文 (台灣)' },
         { value: 'en-US', label: 'English (United States)' },
         { value: 'pt-BR', label: 'Português (Brasil)' }
       ]
