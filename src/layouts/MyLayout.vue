@@ -82,16 +82,12 @@
        <q-img class="absolute-top" src="statics/fundo-menu.jpg" style="height: 150px">
           <div class="absolute-bottom bg-transparent">
             <q-avatar size="56px" class="q-mb-sm">
-              <img src="statics/patrick.jpg">
+              <img src="statics/be.jpg">
             </q-avatar>
-            <div class="text-weight-bold">Patrick Monteiro</div>
+            <div class="text-weight-bold">Bestian Tang</div>
             <div class="q-gutter-sm">
               <q-btn dense color="white" text-color="primary" round size="sm" icon="fab fa-github"
-              type="a" href="https://github.com/patrickmonteiro/quasar-speech-api" target="_blank" />
-              <q-btn dense color="white" text-color="primary" round size="sm" icon="fab fa-linkedin-in"
-              type="a" href="https://www.linkedin.com/in/engpatrickmonteiro/" target="_blank" />
-              <q-btn dense color="white" text-color="primary" round size="sm" icon="fab fa-twitter"
-              type="a" href="https://twitter.com/monteiropatrick" target="_blank" />
+              type="a" href="https://github.com/bestian/m-bot" target="_blank" />
             </div>
           </div>
         </q-img>
